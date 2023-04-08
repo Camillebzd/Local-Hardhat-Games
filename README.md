@@ -92,3 +92,7 @@ contract Game1 {
 ```
 
 Now when you call `win` on `Game1` you will see `22` show up in your local hardhat node. This will happen even if the transaction reverts!
+
+## Note after completion
+
+I added 2 scripts for deploying and testing faster: `scripts/deployAll.js` and `scripts/winAll.js`.
